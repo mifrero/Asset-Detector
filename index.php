@@ -1,4 +1,6 @@
 <?php 
+$counter = file_get_contents('stats.txt') + 1;
+file_put_contents('stats.txt', $counter);
 
 define('MAX_FILE_SIZE', 2000000); // Simple HTML parser has a low limit of 600000
 
