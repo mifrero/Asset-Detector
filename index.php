@@ -13,13 +13,15 @@ include('classes/loader.php');
 <!doctype html>
 <html lang="en">
   <head>
+
+    <title>Assets detector</title>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-  
-    <title>Assets detector</title>
-    
+    <link rel="icon" type="image/png" href="assets/images/favicon.png"/>
+
   </head>
   <body>
 
