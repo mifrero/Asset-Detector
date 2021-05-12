@@ -1,2 +1,3 @@
 # Asset Detector
- A small app that lists CSS and JS files from any URL
+ A small PHP app that lists all CSS, JS files and Inline JS from any URL. 
+ Available at https://asset-detector.herokuapp.com/
