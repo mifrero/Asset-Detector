@@ -16,7 +16,7 @@ include('classes/loader.php');
 <html lang="en">
   <head>
 
-    <title>Assets detector</title>
+    <title>Assets Detector - A tiny app to list CSS, JS files and Inline JS code from any URL</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -112,6 +112,7 @@ endif;
 
 </div> <!-- container -->
 
+<!-- Emi y Feli -->
 
     </body>
 </html>
