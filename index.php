@@ -103,10 +103,21 @@ if ($url) :
 	</div>
 	</div>
 	'; 
-
-
-endif; 
-
+endif;
+	      //Receives the path to a .js file and returns only the filename
+	      /*
+	      * Example: $path = https://v3b4d4f5.rocketcdn.me/wp-content/themes/V4/assets/js/optim/obf.min.js?ver=1626973050
+	      * returns: $trimmed = obf.min.js
+	      */
+	      public function trimPath($path){
+       			$trimmed="";
+        		if(substr_count($path, '.js')>0){
+           			if(substr_count($path, '?'))
+					$trimmed = substr($path, 0, strpos($path, '?'));
+			}
+        	return $trimmed;
+   	      }
+ 
 ?>
 </div> <!-- grid -->
 
